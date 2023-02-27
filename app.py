@@ -97,7 +97,7 @@ if uploaded_file is not None:
                 st.header("Transcript:")
                 st.text(transcript)
 
-                openai.api_key = "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"
+                openai.api_key = "OPENAI_API_KEY"
 
                 response = openai.Completion.create(
                     model="text-davinci-003",
